@@ -1,10 +1,20 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.button-links {
-  background-color: 2196F3;
+
+.header-links {
+  color: 757575;
 }
-.button-links .link:hover,
-.button-links .link:focus {
-  color: FFFFFF;
+
+.buttons {
+  color: F5F4FA;
+}
+
+.buttons .link:hover,
+.buttons .link:focus {
+  color: 2196F3;
+}
+
+.footer-links {
+  color: 757575;
 }
