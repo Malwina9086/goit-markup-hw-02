@@ -3,29 +3,13 @@ body {
   color: #212121;
 }
 
-.header-links {
-  color: #757575;
-}
-
-.header-links .link:hover,
-.header-links .link:focus {
+.header-links:hover,
+.header-links:focus {
+  text-decoration: none;
   color: #2196f3;
 }
-
-.buttons {
-  color: #f5f4fa;
-}
-
-.buttons .link:hover,
-.buttons .link:focus {
-  color: #2196f3;
-}
-
-.footer-links {
-  color: #757575;
-}
-
-.footer-links .link:hover,
-.footer-links .link:focus {
+.contact-links:hover,
+.contact-links:focus {
+  text-decoration: none;
   color: #2196f3;
 }
