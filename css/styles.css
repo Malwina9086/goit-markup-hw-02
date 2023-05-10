@@ -53,3 +53,7 @@ body {
 .footer-item:hover {
   color: #2196f3;
 }
+
+a {
+  text-decoration: inherit;
+}
