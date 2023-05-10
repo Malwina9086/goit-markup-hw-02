@@ -3,13 +3,60 @@ body {
   color: #212121;
 }
 
-.header-links:hover,
-.header-links:focus {
+button {
+  cursor: pointer;
+}
+
+.header-link {
+  background-color: #ececec;
   text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+  font-size: 14;
+  line-height: 16;
+}
+
+.header-link .header-link-item:focus,
+.header-link .header-link-item:hover {
   color: #2196f3;
 }
-.contact-links:hover,
-.contact-links:focus {
+
+.header-contact-link {
+  color: #757575;
   text-decoration: none;
+  font-size: 14;
+  line-height: 16;
+  font-weight: 500;
+}
+
+.header-contact-link .header-contact-link-item:focus,
+.header-contact-link .header-contact-link-item:hover {
+  color: #2196f3;
+}
+
+.button-link {
+  background-color: #f5f4fa;
+  color: #212121;
+  font-size: 16;
+  line-height: 26;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.button-link .link :focus,
+.button-link .link :hover {
+  color: #2196f3;
+}
+
+.footer-contact-links {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-size: 14;
+  line-height: 24;
+  font-weight: 400;
+}
+
+.footer-contact-links .footer-contact-item:focus,
+.footer-contact-links .footer-contact-item:hover {
   color: #2196f3;
 }
