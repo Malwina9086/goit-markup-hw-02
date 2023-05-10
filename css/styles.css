@@ -1,36 +1,33 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
 }
 
 button {
   cursor: pointer;
 }
 
-.header-link {
+.header {
   background-color: #ececec;
-  text-decoration: none;
   color: #212121;
   font-weight: 500;
   font-size: 14;
   line-height: 16;
 }
 
-.header-link .header-link-item:focus,
-.header-link .header-link-item:hover {
+.header-link-item:hover,
+.header-link-item:focus {
   color: #2196f3;
 }
 
-.header-contact-link {
+.header-contact {
   color: #757575;
-  text-decoration: none;
   font-size: 14;
   line-height: 16;
   font-weight: 500;
 }
 
-.header-contact-link .header-contact-link-item:focus,
-.header-contact-link .header-contact-link-item:hover {
+.header-contact-item:hover,
+.header-contact-item:focus {
   color: #2196f3;
 }
 
@@ -40,15 +37,13 @@ button {
   font-size: 16;
   line-height: 26;
   font-weight: 500;
-  text-decoration: none;
 }
-
-.button-link .link :focus,
-.button-link .link :hover {
+.link :hover,
+.link :focus {
   color: #2196f3;
 }
 
-.footer-contact-links {
+.footer {
   background-color: #2f303a;
   color: #ffffff;
   font-size: 14;
@@ -56,7 +51,11 @@ button {
   font-weight: 400;
 }
 
-.footer-contact-links .footer-contact-item:focus,
-.footer-contact-links .footer-contact-item:hover {
+.footer-item:hover,
+.footer-item:focus {
   color: #2196f3;
+}
+
+a {
+  text-decoration: none;
 }
