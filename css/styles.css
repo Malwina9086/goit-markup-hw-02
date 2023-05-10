@@ -2,60 +2,54 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-button {
-  cursor: pointer;
-}
-
 .header {
   background-color: #ececec;
   color: #212121;
+  font-style: normal;
   font-weight: 500;
   font-size: 14;
   line-height: 16;
 }
 
-.header-link-item:hover,
-.header-link-item:focus {
+.header-link-item:hover {
   color: #2196f3;
 }
 
 .header-contact {
   color: #757575;
+  font-style: normal;
   font-size: 14;
   line-height: 16;
   font-weight: 500;
 }
 
-.header-contact-item:hover,
-.header-contact-item:focus {
+.header-contact-item:hover {
   color: #2196f3;
 }
 
-.button-link {
+.button-main {
+  cursor: pointer;
   background-color: #f5f4fa;
   color: #212121;
+  font-style: normal;
   font-size: 16;
   line-height: 26;
   font-weight: 500;
 }
-.link :hover,
-.link :focus {
+
+.link :hover {
   color: #2196f3;
 }
 
 .footer {
   background-color: #2f303a;
   color: #ffffff;
+  font-style: normal;
   font-size: 14;
   line-height: 24;
   font-weight: 400;
 }
 
-.footer-item:hover,
-.footer-item:focus {
+.footer-item:hover {
   color: #2196f3;
-}
-
-a {
-  text-decoration: none;
 }
