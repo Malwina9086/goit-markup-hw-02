@@ -57,3 +57,24 @@ a {
 .footer-link:focus {
   color: #2196f3;
 }
+
+.button-webstudio {
+  background: #2196f3;
+  color: #ffffff;
+  font-size: 16;
+  line-height: 1.9;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #000000;
+}
+
+.highlight {
+  color: #2196f3;
+}
