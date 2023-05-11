@@ -34,19 +34,34 @@ a {
 
 .button-link {
   cursor: pointer;
+  background: F5F4FA;
   color: #212121;
   font-size: 16;
   line-height: 1.6;
   font-weight: 500;
 }
 
-.button-link :hover,
-.button-link :focus {
+.button-link:hover,
+.button-link:focus {
   color: #2196f3;
 }
 
+.h3-portfolio {
+  color: #212121;
+  font-size: 18;
+  line-height: 2;
+  font-weight: 700;
+}
+
+.paragraph-portfolio {
+  color: #757575;
+  font-size: 16;
+  line-height: 1.9;
+  font-weight: 400;
+}
+
 .footer-link {
-  background-color: #2f303a;
+  background: #2f303a;
   color: #ffffff;
   font-size: 14;
   line-height: 1.7;
@@ -55,6 +70,19 @@ a {
 
 .footer-link:hover,
 .footer-link:focus {
+  color: #2196f3;
+}
+
+.footer-link2 {
+  color: #757575;
+  background: #2f303a;
+  font-size: 14;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.footer-link2:hover,
+.footer-link2:focus {
   color: #2196f3;
 }
 
@@ -81,4 +109,54 @@ a {
   font-size: 26;
   line-height: 1.2;
   font-weight: 700;
+}
+
+.webstudio-h1 {
+  color: #ffffff;
+  background: #2f303a;
+  font-size: 44;
+  line-height: 1.4;
+  font-weight: 900;
+}
+
+.lorem-h2 {
+  color: #212121;
+  font-size: 14;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.paragraph-lorem {
+  color: #757575;
+  font-size: 14;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.our-job-h2 {
+  color: #212121;
+  font-size: 36;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.out-team-h2 {
+  color: #212121;
+  font-size: 36;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.photo-name {
+  color: #212121;
+  font-size: 16;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.work-position {
+  color: #757575;
+  font-size: 16;
+  line-height: 1.2;
+  font-weight: 400;
 }
