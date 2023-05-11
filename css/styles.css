@@ -1,8 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
-  text-decoration: none;
   background: #ffffff;
   color: #212121;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header-link {
