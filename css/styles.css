@@ -1,54 +1,56 @@
 body {
   font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  background: #ffffff;
+  color: #212121;
 }
 
-.header {
+.header-link {
   color: #212121;
-  text-decoration: inherit;
   font-weight: 500;
   font-size: 14;
   line-height: 1.1;
 }
 
-.header-link-item:hover,
-.header-link-item:focus {
+.header-link:hover,
+.header-link:focus {
   color: #2196f3;
 }
 
 .header-contact {
   color: #757575;
   font-size: 14;
-  line-height: 16;
+  line-height: 1.1;
   font-weight: 500;
 }
 
-.header-contact-item:hover {
+.header-contact:hover,
+.header-contact:focus {
   color: #2196f3;
 }
 
-.button-main {
+.button-link {
   cursor: pointer;
-  background-color: #f5f4fa;
   color: #212121;
   font-size: 16;
-  line-height: 26;
+  line-height: 1.6;
   font-weight: 500;
 }
 
-.link :hover,
-.link :focus {
+.button-link :hover,
+.button-link :focus {
   color: #2196f3;
 }
 
-.footer {
+.footer-link {
   background-color: #2f303a;
   color: #ffffff;
   font-size: 14;
-  line-height: 24;
+  line-height: 1.7;
   font-weight: 400;
 }
 
-.footer-item:hover,
-.footer-item:focus {
+.footer-link:hover,
+.footer-link:focus {
   color: #2196f3;
 }
